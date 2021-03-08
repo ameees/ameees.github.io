@@ -11,7 +11,7 @@
     position: relative;
 }
 
-section {
+.flex {
     display: flex;
     flex-direction: row;
 }
