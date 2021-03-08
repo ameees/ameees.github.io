@@ -17,6 +17,7 @@ html {
     background-color: rgba(113, 184, 202, 0.4);
     box-shadow: 5px 10px rgb(122, 121, 121);
     position: relative;
+    padding: 30px
 }
 
 .flex {
@@ -24,8 +25,13 @@ html {
     flex-direction: row;
 }
 
+.standard-margin-top {
+    margin-top: 15px;
+}
+
 h1 {
     text-align: center;
+    margin: 0;
 }
 
 .picture {
@@ -41,11 +47,9 @@ img {
 
 .cover {
     object-fit: cover;
-    margin-left: 30px;
 }
 
 .flex-column {
-    margin-left: 20px;
     margin-right: 100px;
     margin-bottom: 10px;
 }
@@ -53,13 +57,12 @@ img {
 label {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 50px;
 }
 
 p {
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 50px;
+    margin: 0;
 }
 
 th, td {
@@ -83,7 +86,6 @@ li {
 .initials {
     font-family: Parisienne;
     font-size: 100px;
-    margin-left: 50px;
 }
 
 body {
