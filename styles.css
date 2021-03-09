@@ -29,19 +29,14 @@ html {
     margin-top: 15px;
 }
 
-h1 {
+.heading-1 {
     text-align: center;
     margin: 0;
 }
 
-.picture {
+.avatar {
     height: 150px;
     width: 150px;
-}
-
-img {
-    height: 100%;
-    width: 100%;
     border: 1px solid grey
 }
 
