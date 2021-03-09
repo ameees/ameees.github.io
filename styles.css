@@ -49,15 +49,9 @@ html {
     margin-bottom: 10px;
 }
 
-label {
+.title {
     font-weight: bold;
     font-size: 1rem;
-}
-
-p {
-    font-weight: bold;
-    font-size: 1rem;
-    margin: 0;
 }
 
 th, td {
