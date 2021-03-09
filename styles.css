@@ -1,3 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
 .box {
     height: 350px;
     width: 800px;
@@ -9,49 +17,41 @@
     background-color: rgba(113, 184, 202, 0.4);
     box-shadow: 5px 10px rgb(122, 121, 121);
     position: relative;
+    padding: 30px
 }
 
-section {
+.flex {
     display: flex;
     flex-direction: row;
 }
 
-h1 {
-    text-align: center;
+.standard-margin-top {
+    margin-top: 15px;
 }
 
-.picture {
+.heading-1 {
+    text-align: center;
+    margin: 0;
+}
+
+.avatar {
     height: 150px;
     width: 150px;
-}
-
-img {
-    height: 100%;
-    width: 100%;
     border: 1px solid grey
 }
 
 .cover {
     object-fit: cover;
-    margin-left: 30px;
 }
 
-article {
-    margin-left: 20px;
+.flex-column {
     margin-right: 100px;
     margin-bottom: 10px;
 }
 
-label {
+.title {
     font-weight: bold;
-    font-size: 17px;
-    margin-left: 50px;
-}
-
-p {
-    font-weight: bold;
-    font-size: 17px;
-    margin-left: 50px;
+    font-size: 1rem;
 }
 
 th, td {
@@ -59,7 +59,7 @@ th, td {
 }
 
 table {
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .link-container {
@@ -75,7 +75,6 @@ li {
 .initials {
     font-family: Parisienne;
     font-size: 100px;
-    margin-left: 50px;
 }
 
 body {
