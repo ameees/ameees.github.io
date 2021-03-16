@@ -59,13 +59,24 @@ html {
     width: 800px;
     border: 5px solid rgb(60, 143, 192);
     border-radius: 1em;
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-left: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; */
     background-color: rgba(113, 184, 202, 0.4);
     box-shadow: 5px 10px rgb(122, 121, 121);
     position: relative;
     padding: 30px
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex--direction-column {
+    flex-direction: column;
 }
 
 .flex {
