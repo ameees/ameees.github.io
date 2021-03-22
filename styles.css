@@ -6,6 +6,16 @@ html {
     font-size: 16px;
 }
 
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: Roboto;
+}
+
 .flex-col-1 {
     flex-basis: 8.33%;
 }
@@ -54,7 +64,7 @@ html {
     flex-basis: 100%;
 }
 
-.box {
+.card {
     height: 350px;
     width: 800px;
     border: 5px solid rgb(60, 143, 192);
@@ -68,15 +78,19 @@ html {
     padding: 30px
 }
 
+@media screen and (min-width: 1024px) {
+    .card {
+        height: 526.75px;
+        width: 1024px;
+        padding: 60px;
+    }
+}
+
 .page-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.flex--direction-column {
-    flex-direction: column;
 }
 
 .flex {
@@ -111,6 +125,13 @@ html {
     border: 1px solid grey
 }
 
+@media screen and (min-width: 1024px) {
+    .avatar {
+        height: 225.78px;
+        width: 225.78px;
+    }
+}
+
 .cover {
     object-fit: cover;
 }
@@ -122,14 +143,6 @@ html {
 
 .title {
     font-weight: bold;
-    font-size: 1rem;
-}
-
-th, td {
-    padding: 5px;
-}
-
-table {
     font-size: 1rem;
 }
 
@@ -145,13 +158,5 @@ li {
 
 .initials {
     font-family: Parisienne;
-    font-size: 100px;
-}
-
-body {
-    font-family: Roboto;
-}
-
-th label p {
-    font-weight: bold;
+    font-size: 8rem;
 }
