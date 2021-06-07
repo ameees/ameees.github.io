@@ -6,11 +6,13 @@ html {
     font-size: 16px;
 }
 
+/*
 @media screen and (min-width: 1024px) {
     html {
         font-size: 20px;
     }
 }
+*/
 
 body {
     font-family: Roboto;
@@ -78,14 +80,6 @@ body {
     padding: 30px
 }
 
-@media screen and (min-width: 1024px) {
-    .card {
-        height: 526.75px;
-        width: 1024px;
-        padding: 60px;
-    }
-}
-
 .page-container {
     height: 100vh;
     display: flex;
@@ -125,13 +119,6 @@ body {
     border: 1px solid grey
 }
 
-@media screen and (min-width: 1024px) {
-    .avatar {
-        height: 225.78px;
-        width: 225.78px;
-    }
-}
-
 .cover {
     object-fit: cover;
 }
@@ -159,4 +146,125 @@ li {
 .initials {
     font-family: Parisienne;
     font-size: 8rem;
+}
+
+/*For 1024px*/
+
+@media screen and (min-width: 1024px) {
+    .card {
+        height: 526.75px;
+        width: 1024px;
+        padding: 60px;
+    }
+    .avatar {
+        height: 225.78px;
+        width: 225.78px;
+    }
+    html {
+        font-size: 20px;
+    }
+}
+
+/* For Mobile*/
+
+/*
+@media only screen and (max-width: 375px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/*
+@media screen and (max-width: 375px) {
+    .avatar {
+        height: 100px;
+        width: 100px;
+        float: center;
+    }
+}*/
+
+/*
+[class*="flex-col-3"] {
+    float: left;
+    padding: 26px;
+}*/
+
+/*
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 16px;
+    }
+    .standard-margin-top {
+        margin-top: 10px;
+    }
+    .card {
+        width: 300px;
+        height: 100%;
+        padding: 20px;
+    }
+    [class*="flex-"] {
+        float: left;
+        padding: 26px;
+    }
+    [class*="flex-"] {
+        width: 100%;
+    }
+}
+*/
+
+@media only screen and (max-width: 375px) {
+    .card {
+        height: 600px;
+        width: 300px;
+        padding: 20px;
+    }
+    .mobile-padding {
+        padding: 12px;
+    }
+    .standard-margin-top {
+        margin-top: 10px;
+    }
+    html {
+        font-size: 15px;
+    }
+    .avatar {
+        margin: auto;
+        display: block;
+    }
+    .mobile-flex-col-1 {
+        flex-basis: 8.33%;
+    }
+    .mobile-flex-col-2 {
+        flex-basis: 16.66%;
+    }
+    .mobile-flex-col-3 {
+        flex-basis: 25%;
+    }
+    .mobile-flex-col-4 {
+        flex-basis: 33.33%;
+    }
+    .mobile-flex-col-5 {
+        flex-basis: 41.66%;
+    }
+    .mobile-flex-col-6 {
+        flex-basis: 50%;
+    }
+    .mobile-flex-col-7 {
+        flex-basis: 58.33%;
+    }
+    .mobile-flex-col-8 {
+        flex-basis: 66.66%;
+    }
+    .mobile-flex-col-9 {
+        flex-basis: 75%;
+    }
+    .mobile-flex-col-10 {
+        flex-basis: 83.33%;
+    }
+    .mobile-flex-col-11 {
+        flex-basis: 91.66%;
+    }
+    .mobile-flex-col-12 {
+        flex-basis: 100%;
+    }
 }
